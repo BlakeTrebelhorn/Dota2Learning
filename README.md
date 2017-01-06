@@ -11,4 +11,6 @@ The first classifier I tried was the Random Forest Classifier (RFC), as this one
 	features (columns) of the data. Many of these columns contain zeros, which would build useless trees. 
 
 I next tried the Perceptron. I thought a little more before using this algorithm. Perceptrons learn by taking each feature and assigning
-	weights, which eventually makes a linear separator. 
+	weights, which eventually makes a linear separator. After initial testing, the Perceptron was reporting around 91% accuracy, a great
+	over the RFC, and much better than random. After some tweaking, the Perceptron reporting about the same accuracy. Because of the high
+	accuracy reported, I realized I may have a linear data set.
