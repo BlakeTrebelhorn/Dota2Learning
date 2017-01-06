@@ -6,4 +6,9 @@ The data already comes split into a testing and training set, with 2 separate cs
 	as it's what I'm most familiar with.
 
 The first classifier I tried was the Random Forest Classifier (RFC), as this one usually does well out of the box. On it's first run
-	the RFC got an accuracy of about 54%, which is slightly better than guessing, but not by much.
+	the RFC got an accuracy of about 54%, which is slightly better than guessing, but not by much. After a small amount of tweaks,
+	I quickly realized that ther RFC would not be a good classifier because of it's nature (ha! get it?). The RFC takes subsets of the
+	features (columns) of the data. Many of these columns contain zeros, which would build useless trees. 
+
+I next tried the Perceptron. I thought a little more before using this algorithm. Perceptrons learn by taking each feature and assigning
+	weights, which eventually makes a linear separator. 
