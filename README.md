@@ -29,3 +29,6 @@ So back to my code from the previous night, the support vector machines. From ex
 	so I could measure how long this was taking. After my first SVM ran, it took 17 minutes alone to train! And of course I ran into an error because
 	of a typo in my code, so it had to rerun again. Realizing this takes a while, I imported joblib into my code so I can export my trained model
 	once I'm done with it, so I won't have to retrain each time.
+### Training Support Vector Machines
+This takes a long time. The default RBF kernel as well as the sigmoid kernel both take around 20 minutes to train. But the linear kernel took nearly 2 
+to train! I'm glad I imported joblib so I can dump my trained linear kernel for later.
