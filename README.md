@@ -31,4 +31,9 @@ So back to my code from the previous night, the support vector machines. From ex
 	once I'm done with it, so I won't have to retrain each time.
 ### Training Support Vector Machines
 This takes a long time. The default RBF kernel as well as the sigmoid kernel both take around 20 minutes to train. But the linear kernel took nearly 2 
-to train! I'm glad I imported joblib so I can dump my trained linear kernel for later.
+	to train! I'm glad I imported joblib so I can dump my trained linear kernel for later.
+## Back to training SVMs
+So I'm back at it with the Support vector machines. I loading in my pickled linear SVM and tested it, and it still had an accuracy of about 59% like 
+	before. I'd like to continue working with this one, but ~2 hours for training is a bit to long right now. So I'll try to speed it up - using PCA!
+## Principle Component Analysis
+
