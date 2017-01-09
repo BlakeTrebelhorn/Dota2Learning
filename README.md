@@ -36,4 +36,7 @@ This takes a long time. The default RBF kernel as well as the sigmoid kernel bot
 So I'm back at it with the Support vector machines. I loading in my pickled linear SVM and tested it, and it still had an accuracy of about 59% like 
 	before. I'd like to continue working with this one, but ~2 hours for training is a bit to long right now. So I'll try to speed it up - using PCA!
 ## Principle Component Analysis
-
+Took a break from this - I worked on implementing other kernels in the SVMs.
+## Linear and Polynomial SVM
+After tweaking the `C` value of the linear kernel SVM, it trained a lot faster. It also got a bit more accurate - ~60% so far. I also tried a basic
+	polynomial kernel, which took about 5.1 hours to train. This one will need some tweaking to fix.
