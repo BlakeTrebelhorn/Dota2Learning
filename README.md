@@ -40,3 +40,7 @@ Took a break from this - I worked on implementing other kernels in the SVMs.
 ## Linear and Polynomial SVM
 After tweaking the `C` value of the linear kernel SVM, it trained a lot faster. It also got a bit more accurate - ~60% so far. I also tried a basic
 	polynomial kernel, which took about 5.1 hours to train. This one will need some tweaking to fix.
+## Polynomial Kernel, KNN, and Logistic Regression
+Wow. Polynomial takes a long time to run. I tried a few different `C` values today with it and pickled them. They got fairly good results, ~58%. I also
+	wanted to try Logistic Regression, as well as K Nearest Neighbor. I thought K Nearest Neighbor would do better because of the nature of the data, but
+	it didn't do too well in testing. I think from this point forward I will be focusing in on the algorithms that did well and try to peak their performance.
