@@ -44,3 +44,8 @@ After tweaking the `C` value of the linear kernel SVM, it trained a lot faster. 
 Wow. Polynomial takes a long time to run. I tried a few different `C` values today with it and pickled them. They got fairly good results, ~58%. I also
 	wanted to try Logistic Regression, as well as K Nearest Neighbor. I thought K Nearest Neighbor would do better because of the nature of the data, but
 	it didn't do too well in testing. I think from this point forward I will be focusing in on the algorithms that did well and try to peak their performance.
+## Summary of another day's work
+I reloaded my pickled kernels from the previous days works. I found the highest performing Linear and Polynomial kernels, and will work on those later. In the 
+	meantime, I've worked on optimizing the Logistic Regressor model, as well as the Multilayer Perceptron model. I did so using Grid Search, which allows me
+	to pass in multiple values for certain parameters, and tests all of them and returns the best combination. I've gotten both the Logistic Regressor and 
+	Multilayer Perceptron very close to 60%.
