@@ -53,3 +53,5 @@ I reloaded my pickled kernels from the previous days works. I found the highest 
 I feel that I've got a bit of work put into this, but it's a bit messy. I've created a testing branch to clean up my code and implement new things. So far I've
 	done some grid search, fixed my Principle Component Analysis (I forgot it was unsupervised!) and added AdaBoost Classification, as well as Stochastic Gradient
 	Descent Classifier.
+## Working with the SGD Classifier
+So far with testing, the SGD Classifier has been doing well with an accuraacy around 60%. More testing is needed, which I will work on later.
