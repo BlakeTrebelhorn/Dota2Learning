@@ -49,3 +49,7 @@ I reloaded my pickled kernels from the previous days works. I found the highest 
 	meantime, I've worked on optimizing the Logistic Regressor model, as well as the Multilayer Perceptron model. I did so using Grid Search, which allows me
 	to pass in multiple values for certain parameters, and tests all of them and returns the best combination. I've gotten both the Logistic Regressor and 
 	Multilayer Perceptron very close to 60%.
+## Adding a Testing Branch
+I feel that I've got a bit of work put into this, but it's a bit messy. I've created a testing branch to clean up my code and implement new things. So far I've
+	done some grid search, fixed my Principle Component Analysis (I forgot it was unsupervised!) and added AdaBoost Classification, as well as Stochastic Gradient
+	Descent Classifier.
