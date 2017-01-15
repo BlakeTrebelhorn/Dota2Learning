@@ -55,3 +55,5 @@ I feel that I've got a bit of work put into this, but it's a bit messy. I've cre
 	Descent Classifier.
 ## Working with the SGD Classifier
 So far with testing, the SGD Classifier has been doing well with an accuraacy around 60%. More testing is needed, which I will work on later.
+## Final work and Testing
+I feel like I've it's not going to get much better that what I've gotten so far. So I've optimized the models I feel are best, and will use those for testing.
