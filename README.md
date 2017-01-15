@@ -1,4 +1,5 @@
 # Dota 2 Learning
+### Look for TL;DR at bottom.
 ## Intro
 I found this data set on the UCI machine learning data base (https://archive.ics.uci.edu/ml/datasets/Dota2+Games+Results#)
 A few of my good friends play this game, and I wanted to try some machine learning so I wound up using this data set. 
@@ -57,3 +58,11 @@ I feel that I've got a bit of work put into this, but it's a bit messy. I've cre
 So far with testing, the SGD Classifier has been doing well with an accuraacy around 60%. More testing is needed, which I will work on later.
 ## Final work and Testing
 I feel like I've it's not going to get much better that what I've gotten so far. So I've optimized the models I feel are best, and will use those for testing.
+
+# TL;DR
+I had some fun with this machine learning project, but was disappointed with the results. However, some data is just not good to learn with, and I feel that this 
+	is one of those datasets. What I've learned is that the data seems to be linearily separable, but is hard to learn on. I used a plethora of models to work with
+	the data and had my code run for probably days in total at this point. My models were only able to achieve at best about 60.2% in training, and in testing was
+	59.9%. Despite this, that is about a 10% increase over random, which is better than nothing. In short, I used Stochastic Gradient Descent, Logistic Regression,
+	Linear Discriminant Analysis, AdaBoost and GradientBoost, as well as Multilayer Perceptron as my final models. The GradientBoost model performed the best in the 
+	end, but all the others were within less than 0.4%.
